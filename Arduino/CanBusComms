@@ -1,0 +1,84 @@
+#include <FlexCAN_T4.h>
+
+FlexCAN_T4<CAN1, RX_SIZE_256, TX_SIZE_16> canBus; // Initialize CAN1 with buffers
+CAN_message_t msg;
+
+const int axisID = 0x1;
+
+void setup() {
+  Serial.begin(115200);
+  while (!Serial);
+
+  canBus.begin();
+  canBus.setBaudRate(250000);
+  
+  Serial.print("Requesting AXIS_STATE_FULL_CALIBRATION_SEQUENCE (0x03) on axisID: ");
+  Serial.println(axisID);
+
+  // Send the calibration message
+  msg.id = (axisID << 5) | 0x07;
+  msg.len = 8;
+  for (int i = 0; i < 8; i++) {
+    if (i == 0) msg.buf[i] = 3;
+    else msg.buf[i] = 0;
+  }
+  
+  if(canBus.write(msg)) {
+    Serial.println("Message sent on CAN bus");
+  } else {
+    Serial.println("Message NOT sent! Please verify CAN bus is working first");
+  }
+
+  // Read messages and wait for the right ID
+  Serial.println("Waiting for calibration to finish...");
+  while (1) {
+    if (canBus.read(msg)) {
+      if (msg.id == (axisID << 5 | 0x01) && msg.buf[4] == 0x1) {
+        Serial.println("\nAxis has returned to Idle state.");
+        break;
+      }
+    }
+  }
+
+  // Check for heartbeat messages
+  if (msg.id == (axisID << 5 | 0x01)) {
+    uint32_t errorCode = msg.buf[0] | (msg.buf[1] << 8) | (msg.buf[2] << 16) | (msg.buf[3] << 24);
+    Serial.println("\nReceived Axis heartbeat message:");
+    if (errorCode == 0x0) {
+      Serial.println("No errors");
+    } else {
+      Serial.print("Axis error! Error code: ");
+      Serial.println(errorCode, HEX);
+    }
+  }
+
+  Serial.print("\nPutting axis ");
+  Serial.print(axisID);
+  Serial.println(" into AXIS_STATE_CLOSED_LOOP_CONTROL (0x08)...");
+
+  // Send the AXIS_STATE_CLOSED_LOOP_CONTROL message
+  msg.id = (axisID << 5) | 0x07;
+  for (int i = 0; i < 8; i++) {
+    if (i == 0) msg.buf[i] = 8;
+    else msg.buf[i] = 0;
+  }
+  
+  if(canBus.write(msg)) {
+    Serial.println("Message sent on CAN bus");
+  } else {
+    Serial.println("Message NOT sent!");
+  }
+
+  if (canBus.read(msg) && msg.id == (axisID << 5 | 0x01)) {
+    Serial.println("\nReceived Axis heartbeat message:");
+    if (msg.buf[4] == 0x8) {
+      Serial.println("Axis has entered closed loop");
+    } else {
+      Serial.println("Axis failed to enter closed loop");
+    }
+  }
+}
+
+void loop() {
+  // Keeping the loop empty for this one-time run script in the setup
+}
