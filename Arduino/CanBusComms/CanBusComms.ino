@@ -3,7 +3,7 @@
 FlexCAN_T4<CAN1, RX_SIZE_256, TX_SIZE_16> canBus; // Initialize CAN1 with buffers
 CAN_message_t msg;
 
-const int axisID = 0x1;
+const int axisID = 0x0;
 
 void setup() {
   Serial.begin(115200);
@@ -11,16 +11,48 @@ void setup() {
 
   canBus.begin();
   canBus.setBaudRate(250000);
+
+  Serial.println(axisID);
+
+  // Clear error
+  Serial.println("Clear error");
+  msg.id = (axisID << 5 | 0x18);
+  msg.len = 8;
+  for(int i = 0; i < 8; i++)
+  {
+    msg.buf[i] = 0;
+  }
   
+  if(canBus.write(msg)) {
+    Serial.println("Message sent on CAN bus");
+  } else {
+    Serial.println("Message NOT sent! Please verify CAN bus is working first");
+  }
+
+  // Send the idle message
+  Serial.print("Set Current State to IDLE");
+  msg.id = (axisID << 5) | 0x07;
+  msg.len = 8;
+  msg.buf[0] = 1;
+  for (int i = 1; i < 8 ; i++) {
+    msg.buf[i] = 0;
+  }
+  
+  if(canBus.write(msg)) {
+    Serial.println("Message sent on CAN bus");
+  } else {
+    Serial.println("Message NOT sent! Please verify CAN bus is working first");
+  }
+  // Calibration
   Serial.print("Requesting AXIS_STATE_FULL_CALIBRATION_SEQUENCE (0x03) on axisID: ");
   Serial.println(axisID);
 
   // Send the calibration message
   msg.id = (axisID << 5) | 0x07;
   msg.len = 8;
-  for (int i = 0; i < 8; i++) {
-    if (i == 0) msg.buf[i] = 3;
-    else msg.buf[i] = 0;
+  msg.buf[0] = 3;
+  for (int i = 1; i < 8 ; i++) {
+    msg.buf[i] = 0;
   }
   
   if(canBus.write(msg)) {
@@ -58,9 +90,9 @@ void setup() {
 
   // Send the AXIS_STATE_CLOSED_LOOP_CONTROL message
   msg.id = (axisID << 5) | 0x07;
-  for (int i = 0; i < 8; i++) {
-    if (i == 0) msg.buf[i] = 8;
-    else msg.buf[i] = 0;
+  msg.buf[0] = 8;
+  for (int i = 1; i < 8; i++) {
+    msg.buf[i] = 0;
   }
   
   if(canBus.write(msg)) {
@@ -75,6 +107,7 @@ void setup() {
       Serial.println("Axis has entered closed loop");
     } else {
       Serial.println("Axis failed to enter closed loop");
+      
     }
   }
 }
