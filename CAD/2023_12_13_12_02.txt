@@ -1,0 +1,508 @@
+{
+  "folder": "C:\\Users\\chari\\Desktop\\Fusion360Export",
+  "formats": [
+    "f3d",
+    "step"
+  ],
+  "projects_folders": {
+    "a.cGVyc29uYWw6dWUyZDkwOGM0IzIwMjMwNTAzNjM2Nzg3OTI2": []
+  },
+  "unhide_all": true,
+  "save_sketches": false,
+  "num_versions": 3
+}
+Visiting folder Robot arm
+Visiting file Arm section 1 v10 . f3d
+Opening `Arm section 1`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Arm section 1_v10.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Arm section 1_v10.step
+Closing Arm section 1
+Got exception visiting file
+Traceback (most recent call last):
+  File "C:/Users/chari/Downloads/Fusion360Exporter-master/Fusion360Exporter-master/Exporter.py", line 282, in visit_folder
+    for file_version in file_versions(file, ctx.num_versions):
+  File "C:/Users/chari/Downloads/Fusion360Exporter-master/Fusion360Exporter-master/Exporter.py", line 269, in file_versions
+    raise Exception(f'Versions not contiguous! prev={prev} cur={v.versionNumber}')
+Exception: Versions not contiguous! prev=10 cur=8
+
+Visiting file Assembly test v15 . f3d
+Opening `Assembly test`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Assembly test_v15.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Assembly test_v15.step
+Closing Assembly test
+Got exception visiting file
+Traceback (most recent call last):
+  File "C:/Users/chari/Downloads/Fusion360Exporter-master/Fusion360Exporter-master/Exporter.py", line 282, in visit_folder
+    for file_version in file_versions(file, ctx.num_versions):
+  File "C:/Users/chari/Downloads/Fusion360Exporter-master/Fusion360Exporter-master/Exporter.py", line 269, in file_versions
+    raise Exception(f'Versions not contiguous! prev={prev} cur={v.versionNumber}')
+Exception: Versions not contiguous! prev=15 cur=8
+
+Visiting file Axle Hub v1 . f3d
+Opening `Axle Hub`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Axle Hub_v1.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Axle Hub_v1.step
+Closing Axle Hub
+Visiting file Base Assembly v5 . f3d
+Opening `Base Assembly`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Base Assembly_v5.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Base Assembly_v5.step
+Closing Base Assembly
+Visiting file Base Assembly v4 . f3d
+Opening `Base Assembly`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Base Assembly_v4.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Base Assembly_v4.step
+Closing Base Assembly
+Visiting file Base Assembly v3 . f3d
+Opening `Base Assembly`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Base Assembly_v3.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Base Assembly_v3.step
+Closing Base Assembly
+Visiting file Base Assembly v2 . f3d
+Opening `Base Assembly`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Base Assembly_v2.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Base Assembly_v2.step
+Closing Base Assembly
+Visiting file Base Bracket v10 . f3d
+Opening `Base Bracket`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Base Bracket_v10.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Base Bracket_v10.step
+Closing Base Bracket
+Got exception visiting file
+Traceback (most recent call last):
+  File "C:/Users/chari/Downloads/Fusion360Exporter-master/Fusion360Exporter-master/Exporter.py", line 282, in visit_folder
+    for file_version in file_versions(file, ctx.num_versions):
+  File "C:/Users/chari/Downloads/Fusion360Exporter-master/Fusion360Exporter-master/Exporter.py", line 269, in file_versions
+    raise Exception(f'Versions not contiguous! prev={prev} cur={v.versionNumber}')
+Exception: Versions not contiguous! prev=10 cur=8
+
+Visiting file Base Gear v4 . f3d
+Opening `Base Gear`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Base Gear_v4.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Base Gear_v4.step
+Closing Base Gear
+Visiting file Base Gear v3 . f3d
+Opening `Base Gear`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Base Gear_v3.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Base Gear_v3.step
+Closing Base Gear
+Visiting file Base Gear v2 . f3d
+Opening `Base Gear`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Base Gear_v2.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Base Gear_v2.step
+Closing Base Gear
+Visiting file Base Gear v1 . f3d
+Opening `Base Gear`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Base Gear_v1.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Base Gear_v1.step
+Closing Base Gear
+Visiting file Base Motor Brackey v6 . f3d
+Opening `Base Motor Brackey`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Base Motor Brackey_v6.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Base Motor Brackey_v6.step
+Closing Base Motor Brackey
+Visiting file Base Motor Brackey v5 . f3d
+Opening `Base Motor Brackey`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Base Motor Brackey_v5.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Base Motor Brackey_v5.step
+Closing Base Motor Brackey
+Visiting file Base Motor Brackey v4 . f3d
+Opening `Base Motor Brackey`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Base Motor Brackey_v4.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Base Motor Brackey_v4.step
+Closing Base Motor Brackey
+Visiting file Base Motor Brackey v3 . f3d
+Opening `Base Motor Brackey`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Base Motor Brackey_v3.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Base Motor Brackey_v3.step
+Closing Base Motor Brackey
+Visiting file Bottom Bearing v1 . f3d
+Opening `Bottom Bearing`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Bottom Bearing_v1.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Bottom Bearing_v1.step
+Closing Bottom Bearing
+Visiting file Drive Bearing Hub v2 . f3d
+Opening `Drive Bearing Hub`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Drive Bearing Hub_v2.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Drive Bearing Hub_v2.step
+Closing Drive Bearing Hub
+Visiting file Drive Bearing Hub v1 . f3d
+Opening `Drive Bearing Hub`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Drive Bearing Hub_v1.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Drive Bearing Hub_v1.step
+Closing Drive Bearing Hub
+Visiting file Encoder Bracket v1 . f3d
+Opening `Encoder Bracket`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Encoder Bracket_v1.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Encoder Bracket_v1.step
+Closing Encoder Bracket
+Visiting file Encoder Magnet holder v1 . f3d
+Opening `Encoder Magnet holder`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Encoder Magnet holder_v1.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Encoder Magnet holder_v1.step
+Closing Encoder Magnet holder
+Visiting file Fillament spool Holder v4 . f3d
+Opening `Fillament spool Holder`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Fillament spool Holder_v4.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Fillament spool Holder_v4.step
+Closing Fillament spool Holder
+Visiting file Fillament spool Holder v3 . f3d
+Opening `Fillament spool Holder`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Fillament spool Holder_v3.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Fillament spool Holder_v3.step
+Closing Fillament spool Holder
+Visiting file Fillament spool Holder v2 . f3d
+Opening `Fillament spool Holder`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Fillament spool Holder_v2.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Fillament spool Holder_v2.step
+Closing Fillament spool Holder
+Visiting file Fillament spool Holder v1 . f3d
+Opening `Fillament spool Holder`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Fillament spool Holder_v1.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Fillament spool Holder_v1.step
+Closing Fillament spool Holder
+Visiting file Gearbox crankshaft v4 . f3d
+Opening `Gearbox crankshaft`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Gearbox crankshaft_v4.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Gearbox crankshaft_v4.step
+Closing Gearbox crankshaft
+Visiting file Gearbox crankshaft v3 . f3d
+Opening `Gearbox crankshaft`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Gearbox crankshaft_v3.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Gearbox crankshaft_v3.step
+Closing Gearbox crankshaft
+Visiting file Gearbox crankshaft v2 . f3d
+Opening `Gearbox crankshaft`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Gearbox crankshaft_v2.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Gearbox crankshaft_v2.step
+Closing Gearbox crankshaft
+Visiting file Gearbox crankshaft v1 . f3d
+Opening `Gearbox crankshaft`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Gearbox crankshaft_v1.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Gearbox crankshaft_v1.step
+Closing Gearbox crankshaft
+Visiting file GearboxTop v3 . f3d
+Opening `GearboxTop`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\GearboxTop_v3.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\GearboxTop_v3.step
+Closing GearboxTop
+Visiting file GearboxTop v2 . f3d
+Opening `GearboxTop`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\GearboxTop_v2.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\GearboxTop_v2.step
+Closing GearboxTop
+Visiting file GearboxTop v1 . f3d
+Opening `GearboxTop`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\GearboxTop_v1.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\GearboxTop_v1.step
+Closing GearboxTop
+Visiting file Housing v12 . f3d
+Opening `Housing`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Housing_v12.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Housing_v12.step
+Closing Housing
+Got exception visiting file
+Traceback (most recent call last):
+  File "C:/Users/chari/Downloads/Fusion360Exporter-master/Fusion360Exporter-master/Exporter.py", line 282, in visit_folder
+    for file_version in file_versions(file, ctx.num_versions):
+  File "C:/Users/chari/Downloads/Fusion360Exporter-master/Fusion360Exporter-master/Exporter.py", line 269, in file_versions
+    raise Exception(f'Versions not contiguous! prev={prev} cur={v.versionNumber}')
+Exception: Versions not contiguous! prev=12 cur=8
+
+Visiting file Modified_Gear_v2 v6 . f3d
+Opening `Modified_Gear_v2`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Modified_Gear_v2_v6.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Modified_Gear_v2_v6.step
+Closing Modified_Gear_v2
+Visiting file Modified_Gear_v2 v5 . f3d
+Opening `Modified_Gear_v2`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Modified_Gear_v2_v5.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Modified_Gear_v2_v5.step
+Closing Modified_Gear_v2
+Visiting file Modified_Gear_v2 v4 . f3d
+Opening `Modified_Gear_v2`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Modified_Gear_v2_v4.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Modified_Gear_v2_v4.step
+Closing Modified_Gear_v2
+Visiting file Modified_Gear_v2 v3 . f3d
+Opening `Modified_Gear_v2`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Modified_Gear_v2_v3.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Modified_Gear_v2_v3.step
+Closing Modified_Gear_v2
+Visiting file Modified Gearbox v11 . f3d
+Opening `Modified Gearbox`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Modified Gearbox_v11.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Modified Gearbox_v11.step
+Closing Modified Gearbox
+Got exception visiting file
+Traceback (most recent call last):
+  File "C:/Users/chari/Downloads/Fusion360Exporter-master/Fusion360Exporter-master/Exporter.py", line 282, in visit_folder
+    for file_version in file_versions(file, ctx.num_versions):
+  File "C:/Users/chari/Downloads/Fusion360Exporter-master/Fusion360Exporter-master/Exporter.py", line 269, in file_versions
+    raise Exception(f'Versions not contiguous! prev={prev} cur={v.versionNumber}')
+Exception: Versions not contiguous! prev=11 cur=8
+
+Visiting file Motor v3 . f3d
+Opening `Motor`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Motor_v3.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Motor_v3.step
+Closing Motor
+Visiting file Motor v2 . f3d
+Opening `Motor`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Motor_v2.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Motor_v2.step
+Closing Motor
+Visiting file Motor v1 . f3d
+Opening `Motor`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Motor_v1.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Motor_v1.step
+Closing Motor
+Visiting file Motor Bracket v11 . f3d
+Opening `Motor Bracket`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Motor Bracket_v11.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Motor Bracket_v11.step
+Closing Motor Bracket
+Got exception visiting file
+Traceback (most recent call last):
+  File "C:/Users/chari/Downloads/Fusion360Exporter-master/Fusion360Exporter-master/Exporter.py", line 282, in visit_folder
+    for file_version in file_versions(file, ctx.num_versions):
+  File "C:/Users/chari/Downloads/Fusion360Exporter-master/Fusion360Exporter-master/Exporter.py", line 269, in file_versions
+    raise Exception(f'Versions not contiguous! prev={prev} cur={v.versionNumber}')
+Exception: Versions not contiguous! prev=11 cur=8
+
+Visiting file Motor Couple v7 . f3d
+Opening `Motor Couple`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Motor Couple_v7.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Motor Couple_v7.step
+Closing Motor Couple
+Visiting file Motor Couple v6 . f3d
+Opening `Motor Couple`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Motor Couple_v6.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Motor Couple_v6.step
+Closing Motor Couple
+Visiting file Motor Couple v5 . f3d
+Opening `Motor Couple`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Motor Couple_v5.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Motor Couple_v5.step
+Closing Motor Couple
+Visiting file Motor Couple v4 . f3d
+Opening `Motor Couple`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Motor Couple_v4.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Motor Couple_v4.step
+Closing Motor Couple
+Visiting file Motor Coupler-Gear v4 . f3d
+Opening `Motor Coupler-Gear`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Motor Coupler-Gear_v4.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Motor Coupler-Gear_v4.step
+Closing Motor Coupler-Gear
+Visiting file Motor Coupler-Gear v3 . f3d
+Opening `Motor Coupler-Gear`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Motor Coupler-Gear_v3.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Motor Coupler-Gear_v3.step
+Closing Motor Coupler-Gear
+Visiting file Motor Coupler-Gear v2 . f3d
+Opening `Motor Coupler-Gear`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Motor Coupler-Gear_v2.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Motor Coupler-Gear_v2.step
+Closing Motor Coupler-Gear
+Visiting file Motor Coupler-Gear v1 . f3d
+Opening `Motor Coupler-Gear`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Motor Coupler-Gear_v1.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Motor Coupler-Gear_v1.step
+Closing Motor Coupler-Gear
+Visiting file Motor Coupler-Motor v4 . f3d
+Opening `Motor Coupler-Motor`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Motor Coupler-Motor_v4.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Motor Coupler-Motor_v4.step
+Closing Motor Coupler-Motor
+Visiting file Motor Coupler-Motor v3 . f3d
+Opening `Motor Coupler-Motor`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Motor Coupler-Motor_v3.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Motor Coupler-Motor_v3.step
+Closing Motor Coupler-Motor
+Visiting file Motor Coupler-Motor v2 . f3d
+Opening `Motor Coupler-Motor`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Motor Coupler-Motor_v2.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Motor Coupler-Motor_v2.step
+Closing Motor Coupler-Motor
+Visiting file Motor Coupler-Motor v1 . f3d
+Opening `Motor Coupler-Motor`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Motor Coupler-Motor_v1.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Motor Coupler-Motor_v1.step
+Closing Motor Coupler-Motor
+Visiting file OdriveBracket v5 . f3d
+Opening `OdriveBracket`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\OdriveBracket_v5.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\OdriveBracket_v5.step
+Closing OdriveBracket
+Visiting file OdriveBracket v4 . f3d
+Opening `OdriveBracket`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\OdriveBracket_v4.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\OdriveBracket_v4.step
+Closing OdriveBracket
+Visiting file OdriveBracket v3 . f3d
+Opening `OdriveBracket`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\OdriveBracket_v3.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\OdriveBracket_v3.step
+Closing OdriveBracket
+Visiting file OdriveBracket v2 . f3d
+Opening `OdriveBracket`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\OdriveBracket_v2.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\OdriveBracket_v2.step
+Closing OdriveBracket
+Visiting file Odrive Rack v2 . f3d
+Opening `Odrive Rack`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Odrive Rack_v2.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Odrive Rack_v2.step
+Closing Odrive Rack
+Visiting file Odrive Rack v1 . f3d
+Opening `Odrive Rack`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Odrive Rack_v1.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Odrive Rack_v1.step
+Closing Odrive Rack
+Visiting file Pinion Gear Bearing insert v2 . f3d
+Opening `Pinion Gear Bearing insert`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Pinion Gear Bearing insert_v2.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Pinion Gear Bearing insert_v2.step
+Closing Pinion Gear Bearing insert
+Visiting file Pinion Gear Bearing insert v1 . f3d
+Opening `Pinion Gear Bearing insert`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Pinion Gear Bearing insert_v1.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Pinion Gear Bearing insert_v1.step
+Closing Pinion Gear Bearing insert
+Visiting file Power Gear v4 . f3d
+Opening `Power Gear`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Power Gear_v4.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Power Gear_v4.step
+Closing Power Gear
+Visiting file Power Gear v3 . f3d
+Opening `Power Gear`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Power Gear_v3.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Power Gear_v3.step
+Closing Power Gear
+Visiting file Power Gear v2 . f3d
+Opening `Power Gear`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Power Gear_v2.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Power Gear_v2.step
+Closing Power Gear
+Visiting file Power Gear v1 . f3d
+Opening `Power Gear`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Power Gear_v1.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Power Gear_v1.step
+Closing Power Gear
+Visiting file Rotation Base v6 . f3d
+Opening `Rotation Base`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Rotation Base_v6.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Rotation Base_v6.step
+Closing Rotation Base
+Visiting file Rotation Base v5 . f3d
+Opening `Rotation Base`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Rotation Base_v5.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Rotation Base_v5.step
+Closing Rotation Base
+Visiting file Rotation Base v4 . f3d
+Opening `Rotation Base`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Rotation Base_v4.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Rotation Base_v4.step
+Closing Rotation Base
+Visiting file Rotation Base v3 . f3d
+Opening `Rotation Base`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Rotation Base_v3.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Rotation Base_v3.step
+Closing Rotation Base
+Visiting file Sholder Mount v4 . f3d
+Opening `Sholder Mount`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Sholder Mount_v4.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Sholder Mount_v4.step
+Closing Sholder Mount
+Visiting file Sholder Mount v3 . f3d
+Opening `Sholder Mount`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Sholder Mount_v3.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Sholder Mount_v3.step
+Closing Sholder Mount
+Visiting file Sholder Mount v2 . f3d
+Opening `Sholder Mount`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Sholder Mount_v2.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Sholder Mount_v2.step
+Closing Sholder Mount
+Visiting file Sholder Mount v1 . f3d
+Opening `Sholder Mount`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Sholder Mount_v1.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Sholder Mount_v1.step
+Closing Sholder Mount
+Visiting file Sholder Part 2 v4 . f3d
+Opening `Sholder Part 2`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Sholder Part 2_v4.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Sholder Part 2_v4.step
+Closing Sholder Part 2
+Visiting file Sholder Part 2 v3 . f3d
+Opening `Sholder Part 2`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Sholder Part 2_v3.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Sholder Part 2_v3.step
+Closing Sholder Part 2
+Visiting file Sholder Part 2 v2 . f3d
+Opening `Sholder Part 2`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Sholder Part 2_v2.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Sholder Part 2_v2.step
+Closing Sholder Part 2
+Visiting file Sholder Part 2 v1 . f3d
+Opening `Sholder Part 2`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Sholder Part 2_v1.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Sholder Part 2_v1.step
+Closing Sholder Part 2
+Visiting file TopBearing v2 . f3d
+Opening `TopBearing`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\TopBearing_v2.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\TopBearing_v2.step
+Closing TopBearing
+Visiting file TopBearing v1 . f3d
+Opening `TopBearing`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\TopBearing_v1.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\TopBearing_v1.step
+Closing TopBearing
+Visiting file Top Bearing Cover v2 . f3d
+Opening `Top Bearing Cover`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Top Bearing Cover_v2.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Top Bearing Cover_v2.step
+Closing Top Bearing Cover
+Visiting file Top Bearing Cover v1 . f3d
+Opening `Top Bearing Cover`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Top Bearing Cover_v1.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\Top Bearing Cover_v1.step
+Closing Top Bearing Cover
+Visiting folder New Folder
+Visiting file assembly v2 . f3d
+Opening `assembly`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\New Folder\assembly_v2.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\New Folder\assembly_v2.step
+Closing assembly
+Visiting file assembly v1 . f3d
+Opening `assembly`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\New Folder\assembly_v1.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\New Folder\assembly_v1.step
+Closing assembly
+Visiting file Crank Shaft v1 . f3d
+Opening `Crank Shaft`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\New Folder\Crank Shaft_v1.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\New Folder\Crank Shaft_v1.step
+Closing Crank Shaft
+Visiting file Old Bracket v3 . f3d
+Opening `Old Bracket`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\New Folder\Old Bracket_v3.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\New Folder\Old Bracket_v3.step
+Closing Old Bracket
+Visiting file Old Bracket v2 . f3d
+Opening `Old Bracket`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\New Folder\Old Bracket_v2.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\New Folder\Old Bracket_v2.step
+Closing Old Bracket
+Visiting file Old Bracket v1 . f3d
+Opening `Old Bracket`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\New Folder\Old Bracket_v1.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\New Folder\Old Bracket_v1.step
+Closing Old Bracket
+Visiting file Modifed Gearbox Housing v1 . f3d
+Opening `Modifed Gearbox Housing`
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\New Folder\Modifed Gearbox Housing_v1.f3d
+Saved C:\Users\chari\Desktop\Fusion360Export\Robot arm\New Folder\Modifed Gearbox Housing_v1.step
+Closing Modifed Gearbox Housing
